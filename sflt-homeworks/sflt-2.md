@@ -12,7 +12,7 @@
 
 ### Решение 1
 
-![img-sflt-2.1](https://github.com/proninsn/homeworks_netology/blob/main/sflt-homeworks/img-sflt-2.1.JMG)
+![img-sflt-2.1](https://github.com/proninsn/homeworks_netology/blob/main/sflt-homeworks/img-sflt-2.1.JPG)
 
 ---
 
@@ -26,4 +26,4 @@
 
 ### Решение 2
 
-![img-sflt-2.2](https://github.com/proninsn/homeworks_netology/blob/main/sflt-homeworks/img-sflt-2.2.JMG)
+![img-sflt-2.2](https://github.com/proninsn/homeworks_netology/blob/main/sflt-homeworks/img-sflt-2.2.JPG)
