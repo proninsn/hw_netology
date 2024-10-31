@@ -2,3 +2,4 @@
 
 ## [Отказоустойчивость](sflt-homeworks)
 - [Кластеризация и балансировка нагрузки](sflt-homeworks/sflt-2.md)
+- [Резервное копирование](sflt-homeworks/sflt-3.md)
