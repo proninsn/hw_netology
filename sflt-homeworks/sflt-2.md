@@ -1,11 +1,6 @@
 # Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - Пронин Сергей Николаевич
 
-
-
-
 ------
-
-
 
 ### Задание 1
 - Запустите два simple python сервера на своей виртуальной машине на разных портах
@@ -17,7 +12,7 @@
 
 ### Решение 1
 
-ghkjhg
+![img-sflt-2.1](https://github.com/proninsn/homeworks_netology/blob/main/sflt-homeworks/img-sflt-2.1.JMG)
 
 ---
 
@@ -31,5 +26,4 @@ ghkjhg
 
 ### Решение 2
 
-
-
+![img-sflt-2.2](https://github.com/proninsn/homeworks_netology/blob/main/sflt-homeworks/img-sflt-2.2.JMG)
