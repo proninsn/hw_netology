@@ -12,3 +12,4 @@
 ## [Реляционные базы данных и администрирование баз данных](sdb-homeworks)
 - [Базы данных](sdb-homeworks/sdb-12-01.md)
 - [Работа с данными (DDL/DML)](sdb-homeworks/sdb-12-02.md)
+- [SQL. Часть 1](sdb-homeworks/sdb-12-03.md)
