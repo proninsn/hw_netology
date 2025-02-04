@@ -1,15 +1,12 @@
 # Домашние работы по Нетологии - Пронин Сергей Николаевич
 
-## [Отказоустойчивость](sflt-homeworks)
-- [Кластеризация и балансировка нагрузки](sflt-homeworks/sflt-2.md)
-- [Резервное копирование](sflt-homeworks/sflt-3.md)
+## [Системы хранения и передачи данных](hw_sdb11)
+- [Базы данных, их типы](hw_sdb11/sdb11-01.md)
+- [Кеширование Redis/memcached](hw_sdb11/sdb11-02.md)
+- [ELK](hw_sdb11/sdb11-03.md)
 
-## [Системы хранения и передачи данных](sdb-homeworks)
-- [Базы данных, их типы](sdb-homeworks/sdb-11-01.md)
-- [Кеширование Redis/memcached](sdb-homeworks/sdb-11-02.md)
-- [ELK](sdb-homeworks/sdb-11-03.md)
-
-## [Реляционные базы данных и администрирование баз данных](sdb-homeworks)
-- [Базы данных](sdb-homeworks/sdb-12-01.md)
-- [Работа с данными (DDL/DML)](sdb-homeworks/sdb-12-02.md)
-- [SQL. Часть 1](sdb-homeworks/sdb-12-03.md)
+## [Реляционные базы данных и администрирование баз данных](hw_sdb12)
+- [Базы данных](hw_sdb12/sdb12-01.md)
+- [Работа с данными (DDL/DML)](hw_sdb12/sdb12-02.md)
+- [SQL. Часть 1](hw_sdb12/sdb12-03.md)
+- [SQL. Часть 2](hw_sdb12/sdb12-04.md)
