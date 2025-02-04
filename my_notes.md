@@ -1,6 +1,6 @@
-https://stackoverflow.com/questions/17659206/git-push-results-in-authentication-failed # Добавление URL для пушинга на GitHub
+https://stackoverflow.com/questions/17659206/git-push-results-in-authentication-failed #Добавление URL для пушинга на GitHub
 
-git remote -v
+git remote -v  
 git remote set-url origin git@github.com:USERNAME/REPONAME.git
 
 ### Порядок команд для добавления изменений на GitHub
