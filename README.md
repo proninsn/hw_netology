@@ -10,4 +10,4 @@
 - [Работа с данными (DDL/DML)](hw_sdb12/sdb12-02.md)
 - [SQL. Часть 1](hw_sdb12/sdb12-03.md)
 - [SQL. Часть 2](hw_sdb12/sdb12-04.md)
-- [Индексы](hw_sdb11/sdb12-05.md)
+- [Индексы](hw_sdb12/sdb12-05.md)
