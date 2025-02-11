@@ -8,4 +8,4 @@
 ![img_course-01.JPG](images/img_course-01.JPG)
 
 Зеркало для terraform было настроено по ссылке https://yandex.cloud/ru/docs/ydb/terraform/install
-Но по данной ссылке страница не найдена, прошу помочь.
+Но по данной ссылке на зеркало страница не найдена, прошу помочь.
