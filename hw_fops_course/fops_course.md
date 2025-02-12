@@ -15,4 +15,4 @@
 Прошу помочь с данной ситуацией.
 
  **Скрин ошибки**  
- ![img_course-02.JPG](img_course-02.JPG)
+ ![img_course-02.JPG](images/img_course-02.JPG)
