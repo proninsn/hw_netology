@@ -215,7 +215,6 @@ resource "yandex_alb_virtual_host" "web" {
 resource "yandex_alb_load_balancer" "web" {
   name               = "web-balancer"
   network_id         = yandex_vpc_network.network.id
-  security_group_ids = [yandex_vpc_security_group.alb_sg.id]
 
   allocation_policy {
     location {
@@ -241,44 +240,4 @@ resource "yandex_alb_load_balancer" "web" {
   }
 }
 
-resource "yandex_vpc_security_group" "alb_sg" {
-  name        = "alb-security-group-2"
-  network_id  = yandex_vpc_network.network.id
-
-  ingress {
-    protocol       = "TCP"
-    description    = "Allow HTTP from health check IP ranges"
-    v4_cidr_blocks = ["198.18.235.0/24", "198.18.248.0/24"]
-    port           = 80
-  }
-
-  ingress {
-    protocol       = "TCP"
-    description    = "Allow HTTP from anywhere"
-    v4_cidr_blocks = ["0.0.0.0/0"]
-    port           = 80
-  }
-
-  ingress {
-    protocol       = "TCP"
-    description    = "Allow HTTPS from health check IP ranges"
-    v4_cidr_blocks = ["198.18.235.0/24", "198.18.248.0/24"]
-    port           = 443
-  }
-
-  ingress {
-    protocol       = "TCP"
-    description    = "Allow HTTPS from anywhere"
-    v4_cidr_blocks = ["0.0.0.0/0"]
-    port           = 443
-  }
-
-  egress {
-    protocol       = "ANY"
-    description    = "Allow any outgoing traffic"
-    v4_cidr_blocks = ["0.0.0.0/0"]
-    from_port      = 0
-    to_port        = 65535
-  }
-}
 

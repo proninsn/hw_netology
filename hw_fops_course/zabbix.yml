@@ -1,0 +1,29 @@
+- hosts: monitoring
+  become: yes
+  tasks:
+    - name: Install Zabbix Server
+      apt:
+        name: zabbix-server-mysql
+        state: present
+
+    - name: Install Zabbix Frontend
+      apt:
+        name: zabbix-frontend-php
+        state: present
+
+    - name: Install Zabbix Agent
+      apt:
+        name: zabbix-agent
+        state: present
+
+    - name: Start Zabbix Server
+      service:
+        name: zabbix-server
+        state: started
+        enabled: yes
+
+    - name: Start Zabbix Agent
+      service:
+        name: zabbix-agent
+        state: started
+        enabled: yes

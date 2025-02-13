@@ -1,0 +1,24 @@
+- hosts: logging
+  become: yes
+  tasks:
+    - name: Install Elasticsearch
+      apt:
+        name: elasticsearch
+        state: present
+
+    - name: Install Kibana
+      apt:
+        name: kibana
+        state: present
+
+    - name: Start Elasticsearch
+      service:
+        name: elasticsearch
+        state: started
+        enabled: yes
+
+    - name: Start Kibana
+      service:
+        name: kibana
+        state: started
+        enabled: yes

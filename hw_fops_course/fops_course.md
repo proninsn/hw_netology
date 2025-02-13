@@ -5,14 +5,16 @@
     - [variables](variables.tf)
 
 - Конфигурация Ansible
-     - []()
+     - [inventory.yml](inventory.yml)
+     - [webservers.yml](webservers.yml)
+     - [zabbix.yml](zabbix.yml)
+     - [logging.yml](logging.yml)
+     - [filebeat.yml](filebeat.yml)
 
 Зравствуйте!
 
 **Вопрос:**  
-
-Не могу разобраться как настроить входящий трафик. Перпробовал уже разные варианты. Мб нужны какие-то конкретные IP-диапозоны!?
-Прошу помочь с данной ситуацией.
+У меня получилось создать инфраструктуру через terraform. Но не могу запустить ansible-playbook inventory.yml webservers.yml уже по-разному перепробовал, но не получается. Прошу помочь.
 
  **Скрин ошибки**  
- ![img_course-02.JPG](images/img_course-02.JPG)
+ ![img_course-03.JPG](images/img_course-03.JPG)
