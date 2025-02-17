@@ -10,7 +10,7 @@
      - [zabbix.yml](zabbix.yml)
      - [logging.yml](logging.yml)
      - [filebeat.yml](filebeat.yml)
-     - [ginx.yml](nginx.yml)
+     - [nginx.yml](nginx.yml)
 
 Зравствуйте!
 
