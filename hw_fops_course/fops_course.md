@@ -10,15 +10,27 @@
      - [zabbix.yml](zabbix.yml)
      - [logging.yml](logging.yml)
      - [filebeat.yml](filebeat.yml)
+     - [ginx.yml](nginx.yml)
 
 Зравствуйте!
 
-**Вопрос:**  
-У меня получилось создать инфраструктуру через terraform. Но не могу запустить ansible-playbook inventory.yml webservers.yml уже по-разному перепробовал, но не получается. При этом я могу подключиться по ssh к ВМ командой: 
-```bash
-ssh -o ProxyCommand="ssh -W %h:%p -i ~/.ssh/id_25519 ubuntu@158.160.54.150" ubuntu@192.168.10.20
+**Вопрос 1:**  
+
+К сожалению у меня так ине получается запустить:  
+```sh
+ansible-playbook inventory.ini nginx.yml
 ```
-Прошу помочь.
+даже с обновленным inventory.ini
 
  **Скрин ошибки**  
- ![img_course-03.JPG](images/img_course-03.JPG)
+ ![img_course-04.JPG](images/img_course-04.JPG)
+
+**Вопрос 2:**  
+Также обнаружил, что не могу соединиться с ALB
+Скрины прилагаю.
+Прошу помочь.
+
+![img_course-05.JPG](images/img_course-05.JPG)
+![img_course-06.JPG](images/img_course-06.JPG)
+![img_course-07.JPG](images/img_course-07.JPG)
+

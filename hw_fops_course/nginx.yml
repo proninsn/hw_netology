@@ -1,0 +1,45 @@
+- hosts: web
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Ensure Nginx is running and enabled
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Create directory for static site
+      file:
+        path: /var/www/html
+        state: directory
+        mode: '0755'
+
+    - name: Deploy static site
+      copy:
+        content: |
+          <!DOCTYPE html>
+          <html>
+          <head>
+              <title>Welcome to Nginx!</title>
+          </head>
+          <body>
+              <h1>Hello from {{ inventory_hostname }}</h1>
+              <p>This is a static website served by Nginx.</p>
+          </body>
+          </html>
+        dest: /var/www/html/index.html
+        mode: '0644'
+
+    - name: Allow HTTP in UFW
+      ufw:
+        rule: allow
+        port: 80
+        proto: tcp
