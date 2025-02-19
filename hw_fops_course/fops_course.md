@@ -4,14 +4,9 @@
     - [main](main.tf)  
     - [variables](variables.tf)
 
-- Конфигурация Ansible
-     - [inventory.yml](inventory.yml)
-     - [webservers.yml](webservers.yml)
-     - [zabbix.yml](zabbix.yml)
+Здравствуйте!
 
-Зравствуйте!
-
-balancer: 130.193.58.151:80
+balancer: 130.193.58.151:80  
 zabbix: 89.169.130.24
 
 
